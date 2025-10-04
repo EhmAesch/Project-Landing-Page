@@ -2,11 +2,11 @@
 .body {
     border: solid coral 2px;
     margin:0;
-    padding:0;
+    padding:15px #1f2937;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    
+   
 }
 
 .header {
@@ -16,18 +16,21 @@
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    
 
 }
 
 .top-bar {
 
-    border: solid 2px coral;
+    border: solid 2px rgb(169, 47, 3);
     max-width: 800px;
     background-color: #1f2937;
     display: flex;
     flex-direction: row;
-   justify-content: space-between;
-    flex: 1 0 auto;
+   justify-self: space-between;
+   min-width: 50%;
+    flex: 1 1 100;
     padding: 10px 13px;
 
 }
@@ -44,6 +47,10 @@ a {
 .main-one{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    
 }
 .text-one{
     display: flex;
@@ -60,12 +67,11 @@ button{
     color: white;
     border-style: none;
     border-radius: 3px;
-    padding: 3px 16px;
-}
-.top-button
+    padding: 3px 16px;}
+
+img{
+    align-items: center;
 
 }
-
-
 
 
