@@ -1,47 +1,52 @@
 
-.body {
-    border: solid coral 2px;
-    margin:0;
-    padding:15px #1f2937;
-    display: flex;
-    flex-direction: column;
-    
-   
-}
+.body{
+    font-family: roboto;
+   }
+
 
 .header {
-    border: 2px solid lightgreen;
-    font-family: Roboto; /*Needs fixed*/
+    font-family: Roboto; 
     color: white;
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 0px 200px;
+    
     
 
 }
 
 .top-bar {
-
-    border: solid 2px rgb(169, 47, 3);
-    max-width: 800px;
     background-color: #1f2937;
     display: flex;
     flex-direction: row;
-   justify-self: space-between;
-   min-width: 50%;
+    justify-content: space-between;
+    width: stretch;
+    padding-top: 20px;
     flex: 1 1 100;
-    padding: 10px 13px;
+    
+}
 
+.logo{
+    font-weight: 1000;
+    font-size:larger;
 }
 
 a {
    text-decoration: none;
-    color: white;
+    color: rgb(216, 216, 216);
     }
 
-    .tagline{
-        font-size: 30px;
+.links{
+    display: flex;
+    gap: 40px;
+}
+
+.tagline{
+    font-size: 40px;
+    font-weight: 700;
     }
 
 .main-one{
@@ -49,29 +54,96 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
+    padding: 60px 0px;
+
     
 }
 .text-one{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    padding: 20px;
+    padding-right: 20px;
+
     }
 
 .subtext{
-    font-weight: lighter;
+    color: rgb(218, 218, 218);
+    margin: 10px 0px;
 }
 
 button{
     background-color: #3382f6;
     color: white;
+    font-size: 16px; font-weight: 600;
     border-style: none;
-    border-radius: 3px;
-    padding: 3px 16px;}
+    border-radius: 6px;
+    padding: 8px 32px;}
 
-img{
+/*BOW ONE ABOVE*/
+/*BOX TWO BELOW*/
+
+.main-two{
+    display: flex;
+    flex-direction: column;
+    font-family: roboto;
+    flex-wrap: wrap;
+    }
+
+.random {
+    height: 100px;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    font-size: 25px; font-weight: 800;
+    
+    
+
+}
+.photo-box{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+    gap: 20px;
+    
+    
+    
+}
+
+.image{
+   
+   max-width: 200px; 
+   flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    
 
 }
 
+.photo-box img {
+    border:5px solid;
+    border-color: #253d5f;
+    border-radius: 20.6px;
+
+}
+
+/*BOX TWO ABOVE*/
+/*BOX THREE BELOW*/
+
+.main-three{
+    border: yellow  solid 2px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.quote{
+
+}
 
